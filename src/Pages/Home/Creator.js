@@ -12,7 +12,7 @@ const Creator = () => {
         slidesToScroll: 1
     };
     return (
-        <div className="my-10 px-5" style={{ background: `url(${creatorBg})`, backgroundSize: 'cover' }}>
+        <div className="my-10" style={{ background: `url(${creatorBg})`, backgroundSize: 'cover' }}>
             <Slider {...settings}>
                 <div className="text-center">
                     <img className="w-36 mask mask-circle creatorImg" src={creatorImg} />
