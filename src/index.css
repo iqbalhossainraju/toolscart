@@ -12,6 +12,12 @@ body {
   cursor: pointer;
 }
 
+.creatorImg {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
